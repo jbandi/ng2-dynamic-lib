@@ -8,12 +8,16 @@ Currently the example works, but the complete bundling is done by the WebPack bu
 To get it working:
 
 	cd lib
+	npm install
 	npm run tsc
 	npm link
 	
 	cd app
+	npm install
 	npm link example-lib
 	npm start
+	
+Then browse to `http://localhost:3000/`
 	
 
 ### The first goal:
